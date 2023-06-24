@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@200;500&display=swap"
+        rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+        <div class="title">
+            <p>Library System</p>
+        </div>
+        <div class="nav-items">
+            <a href=" " target="_blank">Books</a>
+            <a href="">Register</a>
+            <a href="">Contact US</a>
+            <a href="">Log Out</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- books Section -->
+        <section class="books-table">
+            <h1>Books</h1>
+            <table>
+                <thead>
+                    <tr class="row">
+                        <th class="col">Book Id</th>
+                        <th class="col">Title</th>
+                        <th class="col">Author</th>
+                        <th class="col">Genre</th>
+                        <th class="col">Availability</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="row">
+                        <td class="col">1</td>
+                        <td class="col">
+                            <a href="#">Book Title 1</a>
+                            <table class="nested-table">
+                                <tr class="nested row">
+                                    <td class="ns-col">Publication Date:2000</td>
+                                </tr>
+                                <tr class="nested row">
+                                    <td class="ns-col"> Page Count: 250</td>
+                                </tr>
+                                <tr class="nested row">
+
+                                    <td class="ns-col"> ISBN: 123-4567890123</td>
+                                </tr>
+
+                            </table>
+                        </td>
+                        <td class="col">Author Name 1</td>
+                        <td class="col">Genre 1</td>
+                        <td class="col">Avialable</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col">2</td>
+                        <td class="col">
+                            <a href="#">Book Title 2</a>
+                            <table class="nested-table">
+                                <table>
+                                    <tr class="nested row">
+                                        <td class="ns-col">Publication Date:2000</td>
+                                    </tr>
+                                    <tr class="nested row">
+                                        <td class="ns-col"> Page Count: 250</td>
+                                    </tr>
+                                    <tr class="nested row">
+
+                                        <td class="ns-col"> ISBN: 123-4567890123</td>
+                                    </tr>
+
+                                </table>
+                        </td>
+                        <td class="col">Author Name 2</td>
+                        <td class="col">Genre 2</td>
+                        <td class="col">Avialable</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col">3</td>
+                        <td class="col">
+                            <a href="#">Book Title 3</a>
+                            <table class="nested-table">
+                                <table>
+                                    <tr class="nested row">
+                                        <td class="ns-col">Publication Date:2000</td>
+                                    </tr>
+                                    <tr class="nested row">
+                                        <td class="ns-col"> Page Count: 250</td>
+                                    </tr>
+                                    <tr class="nested row">
+
+                                        <td class="ns-col"> ISBN: 123-4567890123</td>
+                                    </tr>
+
+                                </table>
+                        </td>
+                        <td class="col">Author Name 3</td>
+                        <td class="col">Genre 3</td>
+                        <td class="col">Avialable</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col">4</td>
+                        <td class="col">
+                            <a href="#">Book Title 4</a>
+                            <table class="nested-table">
+                                <table>
+                                    <tr class="nested row">
+                                        <td class="ns-col">Publication Date:2000</td>
+                                    </tr>
+                                    <tr class="nested row">
+                                        <td class="ns-col"> Page Count: 250</td>
+                                    </tr>
+                                    <tr class="nested row">
+
+                                        <td class="ns-col"> ISBN: 123-4567890123</td>
+                                    </tr>
+
+                                </table>
+                        </td>
+                        <td class="col">Author Name 4</td>
+                        <td class="col">Genre 4</td>
+                        <td class="col">Avialable</td>
+                    </tr>
+
+
+                </tbody>
+
+
+            </table>
+        </section>
+
+        <!-- Form Section -->
+        <section class="registration-form">
+            <h1>Register</h1>
+            <form action="#" method="get">
+
+                <div class="form-Controller">
+                    <label for="name">FirstName:</label> <br>
+                    <input type="text" name="" id="name" required placeholder="Enter First Name">
+                </div>
+
+                <div class="form-Controller">
+                    <label for="Lname">LastName:</label> <br>
+                    <input type="text" name="" id="Lname" required placeholder="Enter Your LastName">
+                </div>
+
+
+                <div class="form-Controller">
+                    <label for="dob">Date of Birth:</label> <br>
+                    <input type="date" name="" id="dob" required placeholder="Enter Your DOB">
+                </div>
+
+
+                <div class="form-Controller">
+                    <label for="age">Age:</label> <br>
+                    <input type="number" name="" id="age" required min="5" max="100">
+                </div>
+
+                <div class="form-Controller">
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="" id="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="form-Controller">
+                    <label for="password">Password:</label> <br>
+                    <input type="password" name="" id="password" required placeholder="Enter Password">
+                </div>
+                <div class="form-Controller">
+                    <label for="Cpassword">Confirm Password:</label> <br>
+                    <input type="password" name="" id="Cpassword" required placeholder="Reenter Password">
+                </div>
+
+
+                <div>
+                    <input type="submit" value="Register" class="submit-Button">
+                </div>
+
+
+
+
+            </form>
+
+        </section>
+    </main>
+</body>
+
+</html>
